@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Cooking At Uni (V3)</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="manifest" href="/static/manifest.json">
+    <link rel="stylesheet" href="/static/global.css">
+    <style>
+        #search-area {
+            text-align: center;
+            margin: 20px;
+        }
+
+        #search-input {
+            padding: 10px;
+            width: 60%;
+            border: 2px solid #333;
+            border-radius: 8px;
+            font-size: 16px;
+        }
+
+        #content {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+            padding: 20px;
+        }
+
+        .recipe-card {
+            display: block;
+            text-decoration: none;
+            color: inherit;
+            background: white;
+            border: 1px solid #ddd;
+            border-radius: 12px;
+            padding: 15px;
+            box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+            transition: transform 0.2s, box-shadow 0.2s;
+            outline: none; /* removes default outline */
+            -webkit-tap-highlight-color: transparent; /* removes mobile highlight */
+        }
+
+        .recipe-card:focus,
+        .recipe-card:active {
+            outline: none;
+            border: none;
+        }
+
+        .recipe-card:hover {
+            transform: scale(1.02);
+            box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+        }
+
+        .recipe-title {
+            font-size: 1.2rem;
+            margin-bottom: 8px;
+            color: #E94E3C; /* Tomato red accent */
+        }
+
+        .recipe-meta {
+            font-size: 0.9rem;
+            color: #555;
+            margin-bottom: 10px;
+        }
+
+        .recipe-description {
+            font-size: 0.95rem;
+            color: #333;
+        }
+    </style>
+</head>
+<body>
+    <div id="header">
+        <h1>Cooking At Uni</h1>
+    </div>
+
+    <div id="search-area">
+        <input id="search-input" type="text" placeholder="Search recipes...">
+    </div>
+
+    <div id="content"></div>
+
+    <script>
+        let recipes = {};
+
+        async function load() {
+            try {
+                const res = await fetch("/get_recipies");
+                recipes = await res.json();
+                displayRecipes(recipes);
+            } catch (err) {
+                console.error("Error fetching recipes:", err);
+            }
+        }
+
+        function displayRecipes(data) {
+            const content = document.getElementById("content");
+            content.innerHTML = ""; // clear existing
+
+            Object.entries(data).forEach(([name, info]) => {
+                const card = document.createElement("a");
+                card.className = "recipe-card";
+                card.href = `/recipe?name=${encodeURIComponent(name)}`;
+
+                card.innerHTML = `
+                    <div class="recipe-title">${name}</div>
+                    <div class="recipe-meta">
+                        ⏱ ${info.TimeToCookInMins} mins • 🍽 Serves ${info.Servings}
+                        ${info.isGlutenFree ? "• 🌾 Gluten Free" : ""}
+                    </div>
+                    <div class="recipe-description">${info.Description}</div>
+                `;
+
+                content.appendChild(card);
+            });
+        }
+
+        // Live search filter
+        document.getElementById("search-input").addEventListener("input", (e) => {
+            const query = e.target.value.toLowerCase();
+            const filtered = Object.fromEntries(
+                Object.entries(recipes).filter(([name]) =>
+                    name.toLowerCase().includes(query)
+                )
+            );
+            displayRecipes(filtered);
+        });
+
+        load();
+    </script>
+</body>
+</html>

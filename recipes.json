@@ -1,0 +1,331 @@
+{
+  "Template Recipe": {
+      "Servings": 0,
+      "TimeToCookInMins": 0,
+      "Ingredients": [
+        {
+          "Name": "",
+          "Quantity": 0
+        }
+      ],
+      "Description": "",
+      "HowToMake": "",
+      "isGlutenFree": true
+  },
+  "Tinned Tuna Fish Cakes": {
+      "Servings": 3,
+      "TimeToCookInMins": 30,
+      "Ingredients": [
+        {
+          "Name": "Flaked Tuna Fish (Canned)",
+          "Quantity": "186g"
+        },
+        {
+          "Name": "Ground Almonds",
+          "Quantity": "50g"
+        },
+        {
+          "Name": "Eggs",
+          "Quantity": 2
+        },
+        {
+          "Name": "Coriander, Chives, salt and peper",
+          "Quantity": ""
+        },
+        {
+          "Name": "Ground Cumin",
+          "Quantity": "1/2 tbsp"
+        },
+        {
+          "Name": "Grated Cheddar",
+          "Quantity": "20g"
+        }
+      ],
+      "Description": "Makes 6 fish cakes",
+      "HowToMake": "Thoroughly drain the tuna and place it in a bowl. Break up any large chunks.\nAdd the eggs and the ground almonds and mix well.\nAdd the ground cumin, salt and pepper to taste (season well).\nChop the fresh coriander and chives, then mix them in together with the chilli flakes,\nif using.\nMix in the grated cheddar. Divide the mixture into 6 equal parts.\nHeat the fat in a frying pan, until you have at least 1 - 2cm depth.\nRoll the fish cake mix into balls and then flatten them slightly. Place them in the pan.\nCook over a medium heat, moving them occasionally so they do not stick. After\nabout 5 minutes, turn them over. Cook for a further 5 - 10 minutes or until golden\nbrown on both sides.\nDrain on kitchen roll and serve with a lemon wedge and a dollop of sour cream.",
+      "isGlutenFree": true
+  },
+  "Salmon Sans Croute": {
+      "Servings": 4,
+      "TimeToCookInMins": 45,
+      "Ingredients": [
+        {
+          "Name": "Fresh Salmon",
+          "Quantity": "200g"
+        },
+        {
+          "Name": "Large/King Prawns",
+          "Quantity": "200g"
+        },
+        {
+          "Name": "Butter (For Frying)",
+          "Quantity": "20g"
+        },
+        {
+          "Name": "Crushed Garlic",
+          "Quantity": "4 Cloves"
+        },
+        {
+          "Name": "Hard-boiled Eggs",
+          "Quantity": 2
+        },
+        {
+          "Name": "Spinach (Fresh/Frozen)",
+          "Quantity": "2 Handfuls"
+        },
+        {
+          "Name": "Fat (For Frying)",
+          "Quantity": "~20g"
+        },
+        {
+          "Name": "Brie (Chunked/No Rind)",
+          "Quantity": "200g"
+        },
+        {
+          "Name": "Black Pepper",
+          "Quantity": ""
+        },
+        {
+          "Name": "Double Cream / Ground Almonds",
+          "Quantity": "?"
+        }
+      ],
+      "Description": "No Description",
+      "HowToMake": "Preheat the oven to 180°C (350°F/GM4).\nCut the salmon into big chunks (e.g. 4 cm square). Melt the butter in a frying pan\nand add the garlic and salmon, then fry the salmon until just cooked through.\nRemove the salmon and garlic from the pan and place into an ovenproof dish.\nAdd the prawns to the pan and cook for 1 - 2 minutes, or until they have just turned\nopaque. Then remove them and add them to the ovenproof dish with the salmon and\ngarlic. Slice the hardboiled eggs and layer them on top of the salmon and prawns.\nWilt the spinach in a saucepan or in the microwave, and spoon it over the eggs.\nMake a cheese sauce by melting the rindless brie in the frying pan (add more butter\nif needed) and adding enough double cream to make it a nice and thick but pourable\nconsistency. Season with black pepper to taste. Pour the sauce over the fish, eggs\nand spinach in the ovenproof dish.\nSprinkle ground almonds over the top until the contents are completely covered.\nCook in the oven for about 20 minutes, until the almonds are light golden brown and\nthe mixture is bubbling. Serve with a nice glass of chilled white wine.\nAlternatives -\nTry adding other cheeses to the sauce, e.g. mozzarella.",
+      "isGlutenFree": true
+  },
+  "Cauliflower Cheese with Tuna": {
+      "Servings": 4,
+      "TimeToCookInMins": 30,
+      "Ingredients": [
+        {
+          "Name": "Cauliflower",
+          "Quantity": "Small/Medium"
+        },
+        {
+          "Name": "Soft Cream Cheese",
+          "Quantity": "300g"
+        },
+        {
+          "Name": "Tin of Tuna",
+          "Quantity": "185g"
+        },
+        {
+          "Name": "Grated Cheddar Cheese",
+          "Quantity": ""
+        },
+        {
+          "Name": "Double Cream",
+          "Quantity": ""
+        },
+        {
+          "Name": "Ground Black Pepper",
+          "Quantity": ""
+        }
+      ],
+      "Description": "A versatile recipe, including the easiest ever cheese sauce – you never need struggle to make a roux ever again, gluten-free or\notherwise! Leave out the tuna for a nice vegetarian main",
+      "HowToMake": "Chop the cauliflower into florets, and cook (boil or steam) for about 10 minutes until\njust done or al dente. Strain away the water and keep the cauliflower to one side.\nPreheat the oven to around 180°C (350°F/GM4) or preheat the grill.\nMelt the soft cheese in a small pan or frying pan. Once melted, add plenty of grated\ncheddar cheese and ground black pepper, both to taste. Add double cream until you\nreach the white sauce consistency you like. Add the tuna and mix well. Add the\nchopped chives.\nPlace the cauliflower into an ovenproof dish and pour the cheese sauce over the top,\nensuring all the cauliflower is well coated. Sprinkle a little extra cheddar over the\ntop and place in a hot oven or under the grill for about 10 minutes, or until the sauce\nis bubbling and the cheese on top has melted and turned brown.\nAlternatives -\nMake this into a vegetarian dish simply by leaving out the tuna.\nLeave out the tuna and the cheese for a simple side dish of cauliflower in white\nsauce.\n",
+      "isGlutenFree": true
+  },
+  "Easy Peasy Fish Pie": {
+      "Servings": 3,
+      "TimeToCookInMins": 55,
+      "Ingredients": [
+        {
+          "Name": "Mixed Fish",
+          "Quantity": "300g"
+        },
+        {
+          "Name": "Prawns",
+          "Quantity": "200g"
+        },
+        {
+          "Name": "Soft Cream Cheese",
+          "Quantity": "300g"
+        },
+        {
+          "Name": "Butter",
+          "Quantity": "10g"
+        },
+        {
+          "Name": "Olive oil (with garlic)",
+          "Quantity": ""
+        },
+        {
+          "Name": "Green Bell Pepper",
+          "Quantity": "1"
+        },
+        {
+          "Name": "Salt, Pepper & Chives",
+          "Quantity": ""
+        },
+        {
+          "Name": "Ground Almonds : Potato Flour",
+          "Quantity": "2:1"
+        },
+        {
+          "Name": "Butter (Cubed)",
+          "Quantity": ""
+        }
+      ],
+      "Description": "No Description",
+      "HowToMake": "Preheat the oven to 180°C (350°F/GM4).\nThe Filling -\nMelt the butter with the olive oil in a frying pan. Cook the green pepper for a few\nminutes. Add the fish and cook gently until just done. Add the prawns and cook for\na few more minutes, until the prawns are opaque. Add the cream cheese and heat\ngently until melted. Add the chives and season to taste. Pour into an oven proof\ndish.\nThe Savoury Crumble Topping -\nMix the ground almonds and potato flour (other gluten-free flours would also work\nfine), adding in the salt and pepper to taste. Add the butter and rub it into the flour\nuntil it forms a crumble-like topping. You can use a food processor for this, but you\nmay need to do the last bit by hand to get the right crumb-like texture. If it’s too\nsticky (i.e. big sticky crumbs) add a little more flour or almonds. If it’s too dry (i.e. not\nforming crumbs) add more butter.\nSprinkle the topping over the fish mixture. Cook in the oven at 180°C (350°F/GM4)\nfor about 30 minutes or until the topping is turning golden brown and the mixture is\nbubbling.",
+      "isGlutenFree": true
+  },
+  "Chicken, Mushroom and Aubergine\n": {
+      "Servings": 2,
+      "TimeToCookInMins": 60,
+      "Ingredients": [
+        {
+          "Name": "Chicken Breast",
+          "Quantity": "250g"
+        },
+        {
+          "Name": "Mushrooms",
+          "Quantity": "250g"
+        },
+        {
+          "Name": "Aubergine (Sliced)",
+          "Quantity": 1
+        },
+        {
+          "Name": "Good Stock",
+          "Quantity": ""
+        },
+        {
+          "Name": "Double Cream",
+          "Quantity": ""
+        },
+        {
+          "Name": "Seasoning",
+          "Quantity": ""
+        }
+      ],
+      "Description": "No Description",
+      "HowToMake": "Peel the aubergine and slice into rectangles about 5cm long, 1cm thick and 5mm\ndeep.\nSet aside between two sheets of kitchen towel for 30 minutes, then squeeze the\naubergine to remove any excess water.\nCook the chicken in chunks however you want to, and set to one side.\nCook the mushrooms and the aubergine in butter for 10 minutes.\nAdd the stock and simmer for a further 15 - 20 minutes.\nAdd the chicken to heat through, then add a good amount of double cream.\nHeat through gently, and season to taste.",
+      "isGlutenFree": true
+  },
+  "Garlic Chicken": {
+      "Servings": 4,
+      "TimeToCookInMins": 45,
+      "Ingredients": [
+        {
+          "Name": "Chicken Joints (w/Bones)",
+          "Quantity": "1kg"
+        },
+        {
+          "Name": "Garlic Cloves (whole/unpealed)",
+          "Quantity": "15"
+        },
+        {
+          "Name": "Dry White Sherry",
+          "Quantity": "50ml"
+        },
+        {
+          "Name": "Soy Sauce",
+          "Quantity": "2/5 tbsp"
+        },
+        {
+          "Name": "Sesame Oil",
+          "Quantity": "2/5 tbsp"
+        },
+        {
+          "Name": "Sugar",
+          "Quantity": "2 tbsp"
+        }
+      ],
+      "Description": "No Description",
+      "HowToMake": "Coat the chicken with pepper and salt, and pat it in well.\nMelt the butter in a frying pan or wok, and add the chicken skin-side down.\nSlowly brown on both sides for about 10 minutes. Add the garlic and fry for a\nfurther 2 minutes.\nAdd the sherry, soy sauce, sesame oil and sugar. Stir well and turn the chicken to\ncoat it with the sauce.\nBring it to the boil, then turn the heat to as low as possible and cover and braise for\n20 minutes until the chicken is tender. Turn the chicken occasionally to coat it with\nthe sauce.\nRemove chicken with a slotted spoon. You can reduce the sauce down further (it\nshould thicken nicely with the sugar in it) and either pour it over the chicken or roll\nthe chicken in it to coat it.",
+      "isGlutenFree": true
+  },
+  "Coconut Lemon Chicken": {
+      "Servings": 4,
+      "TimeToCookInMins": 70,
+      "Ingredients": [
+        {
+          "Name": "Chicken Fillets (Diced)",
+          "Quantity": "300g"
+        },
+        {
+          "Name": "Dessicated Coconut",
+          "Quantity": "100g"
+        },
+        {
+          "Name": "Medium Onions (Sliced)",
+          "Quantity": 3
+        },
+        {
+          "Name": "Cloves of garlic (Sliced)",
+          "Quantity": 4
+        },
+        {
+          "Name": "Fresh Ginger",
+          "Quantity": "2cm"
+        },
+        {
+          "Name": "Lemon Rind (Thin slivers)",
+          "Quantity": "1/2 lemon"
+        },
+        {
+          "Name": "Soy Sauce",
+          "Quantity": "30ml"
+        },
+        {
+          "Name": "Lemon Juice",
+          "Quantity": "1/2 lemon"
+        }
+      ],
+      "Description": "No Description",
+      "HowToMake": "Prepare the coconut milk by lining a heat-proof jug with a clean tea towel. Place the\ncoconut onto the tea towel within the jug. Pour enough boiling water to just cover the\ncoconut and leave for 30 minutes (see photo on opposite page, bottom left panel).\nCarefully lift out the coconut in the tea towel, and holding it above the jug, twist the\ntea towel to extract all of the milk. Be careful when handling, as it may still be hot.\nMelt the butter in a wok or large frying pan and cook the chicken until browned on\nthe surface (approximately 5 minutes).\nAdd the onions, ginger, garlic and lemon peel and continue to fry for a further 5\nminutes.\nAdd in the coconut milk, soy sauce and lemon juice. Reduce the sauce down over a\nhigh heat for about 20 minutes.\nServe with fresh coriander leaves or a little basil.",
+      "isGlutenFree": true
+  },
+  "Tequila Wings": {
+      "Servings": 3,
+      "TimeToCookInMins": 240,
+      "Ingredients": [
+        {
+          "Name": "Chicken Wings (In halves)",
+          "Quantity": "1kg"
+        },
+        {
+          "Name": "Tequila",
+          "Quantity": "2 tbsp"
+        },
+        {
+          "Name": "Lime Juice",
+          "Quantity": "2 limes"
+        },
+        {
+          "Name": "Orange Juice",
+          "Quantity": "1 orange"
+        },
+        {
+          "Name": "Olive Oil",
+          "Quantity": "2 tbsp"
+        },
+        {
+          "Name": "Garlic Cloves (Crushed)",
+          "Quantity": "10"
+        },
+        {
+          "Name": "Red Chili (deseeded/chopped)",
+          "Quantity": 1
+        },
+        {
+          "Name": "Cinnamon, Oregano & Cumin",
+          "Quantity": ""
+        },
+        {
+          "Name": "Allspice (ground)",
+          "Quantity": "1/4 tsp"
+        },
+        {
+          "Name": "Sugar",
+          "Quantity": "1 tsp"
+        }
+      ],
+      "Description": "Good cold, so ideal for picnics and buffets. Also good for BBQs",
+      "HowToMake": "Mix the ingredients for the marinade together, and place the chickens wings in it.\nTurn them and ensure they are well covered. Marinate in fridge either overnight or\nfor 3 hours.\nThen, either cook over a barbeque or slowly grill for 15 - 20 minutes or until juice\nruns clear.\nYou can also cook these in the oven. Simply place them on a foil-lined tray and cook\nat 180°C (350°F/GM4) for about 25 minutes.\nScatter some fresh chopped coriander leaves over the top to serve.\n",
+      "isGlutenFree": true
+  }
+}

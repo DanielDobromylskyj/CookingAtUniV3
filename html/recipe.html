@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Recipe</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: flex-start;
+            min-height: 100vh;
+            margin: 0;
+            padding: 40px 20px;
+            font-family: Arial, sans-serif;
+            background-color: #222;
+            color: #fff;
+        }
+        .box {
+            background: #444;
+            padding: 30px;
+            border-radius: 12px;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.4);
+            max-width: 800px;
+            width: 90%;
+            margin: 0 20px;
+        }
+        h1 {
+            color: #FFD166; /* Lemon yellow accent */
+            margin-top: 0;
+        }
+        .meta {
+            font-size: 0.95rem;
+            margin-bottom: 20px;
+            color: #ccc;
+        }
+        .description {
+            margin-bottom: 20px;
+        }
+        .ingredients {
+            text-align: left;
+            margin-bottom: 20px;
+        }
+        .ingredients li {
+            margin: 5px 0;
+        }
+        .howto {
+            text-align: left;
+            line-height: 1.6;
+            white-space: pre-line; /* makes \n show as line breaks */
+        }
+    </style>
+</head>
+<body>
+    <body>
+        <div style="display: flex; flex-direction: column; align-items: center;">
+            <div class="box" id="recipe-box">
+                Loading recipe...
+            </div>
+
+            <button onclick="window.location.href='/'" style="
+                background:#E94E3C;
+                border:none;
+                color:white;
+                padding:8px 16px;
+                border-radius:8px;
+                cursor:pointer;
+                margin-top:20px;
+            ">← Back</button>
+        </div>
+    </body>
+
+
+    <script>
+        async function load() {
+            const params = new URLSearchParams(window.location.search);
+            const recipeName = params.get("name");
+
+            if (!recipeName) {
+                document.getElementById("recipe-box").innerText = "No recipe specified.";
+                return;
+            }
+
+            try {
+                const res = await fetch("/get_recipies");
+                const recipes = await res.json();
+                const recipe = recipes[recipeName];
+
+                if (!recipe) {
+                    document.getElementById("recipe-box").innerText = "Recipe not found.";
+                    return;
+                }
+
+                // Build recipe display
+                const box = document.getElementById("recipe-box");
+                box.innerHTML = `
+                    <h1>${recipeName}</h1>
+                    <div class="meta">
+                        ⏱ ${recipe.TimeToCookInMins} mins • 🍽 Serves ${recipe.Servings}
+                        ${recipe.isGlutenFree ? "• 🌾 Gluten Free" : ""}
+                    </div>
+                    <div class="description">${recipe.Description}</div>
+                    <h2>Ingredients</h2>
+                    <ul class="ingredients">
+                        ${recipe.Ingredients.map(i => `<li>${i.Quantity} × ${i.Name}</li>`).join("")}
+                    </ul>
+                    <h2>How to make</h2>
+                    <div class="howto">${recipe.HowToMake.replace(/\n/g, "<br>")}</div
+                `;
+            } catch (err) {
+                console.error("Error loading recipe:", err);
+                document.getElementById("recipe-box").innerText = "Error loading recipe.";
+            }
+        }
+
+        load();
+    </script>
+</body>
+</html>

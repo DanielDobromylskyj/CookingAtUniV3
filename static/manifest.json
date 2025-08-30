@@ -1,0 +1,9 @@
+{
+  "name": "Flask Hello",
+  "short_name": "Hello",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#222",
+  "theme_color": "#444",
+  "icons": []
+}
