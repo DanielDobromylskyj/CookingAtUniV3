@@ -1,6 +1,8 @@
 from flask import Flask
 import json
 
+from auto_dns import dns
+
 recipies = json.load(open("recipes.json"))
 
 app = Flask(__name__)
@@ -20,10 +22,10 @@ def get_recipies():
     return recipies, 200
 
 
-
 @app.route("/recipe")
 def about():
     return server_html("recipe")
 
 if __name__ == "__main__":
+    dns.start()
     app.run(host="192.168.1.120", port=8080)
